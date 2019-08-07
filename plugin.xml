@@ -9,6 +9,11 @@
         <edit-config file="AndroidManifest.xml" target="application" mode="merge">
             <application android:usesCleartextTraffic="true"></application>
         </edit-config>
+        <config-file target="res/xml/config.xml">
+            <feature name="WJZ">
+                <param name="android-package" value="com.wjz.test" />
+            </feature>
+        </config-file>
     </platform>
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
