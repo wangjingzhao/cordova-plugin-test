@@ -8,8 +8,13 @@
     <platform name="android">
     <config-file target="config.xml" parent="/*">
         <config-test url="www.baidu.com"></config-test>
+        <feature name="test">
+            <param name="android" value="test" />
+        </feature>
     </config-file>
-
+        <edit-config target="AndroidManifest.xml" parent="/manifest/application" mode="merge">
+            <application android:usesCleartextTraffic="true"></application>
+        </edit-config>
     </platform>
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
