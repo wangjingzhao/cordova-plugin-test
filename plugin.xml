@@ -6,7 +6,9 @@
     <license>Apache 2.0</license>
     <keywords>cordova,device</keywords>
     <platform name="android">
-
+        <edit-config target="AndroidManifest.xml" target="/manifest/application" mode="merge">
+            <application android:usesCleartextTraffic="true"></application>
+        </edit-config>
     </platform>
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
