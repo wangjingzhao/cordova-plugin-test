@@ -1,0 +1,38 @@
+{
+  "name": "cordova-plugin-test",
+  "version": "0.0.1",
+  "description": "Cordova Plugin test",
+  "types": "./types/index.d.ts",
+  "cordova": {
+    "id": "cordova-plugin-test",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wangjingzhao/cordova-plugin-test"
+  },
+  "bugs": {
+
+  },
+  "keywords": [
+
+  ],
+  "scripts": {
+
+  },
+  "author": "wangjingzhao",
+  "license": "Apache-2.0",
+  "engines": {
+    "cordovaDependencies": {
+      "3.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "devDependencies": {
+
+  }
+}
