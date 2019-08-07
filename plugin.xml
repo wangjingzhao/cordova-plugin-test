@@ -14,6 +14,7 @@
                 <param name="android-package" value="com.wjz.test" />
             </feature>
         </config-file>
+        <source-file src="src/android/test.java" target-dir="src/com/wjz/test" />
     </platform>
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
