@@ -20,11 +20,16 @@ public class wjz extends CordovaPlugin {
                 callbackContext.success("success");
                 return true;
             }
-            callbackContext.success("nothing");
-            return true;
+            return false;
         } catch (Exception e) {
             callbackContext.success("failed");
             return true;
         }
+    }
+
+    @Override
+    public void initialize(CordovaInterface cordova, CordovaWebView webView) {
+        super.initialize(cordova, webView);
+        Log.d(TAG, "execute: wjz init");
     }
 }

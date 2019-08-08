@@ -9,7 +9,7 @@
         <edit-config file="AndroidManifest.xml" target="application" mode="merge">
             <application android:usesCleartextTraffic="true"></application>
         </edit-config>
-        <config-file target="config.xml" parent="/*">
+        <config-file target="res/xml/config.xml" parent="/*">
             <feature name="wjz">
                 <param name="android-package" value="com.wjz.cordova.wjz" />
             </feature>
