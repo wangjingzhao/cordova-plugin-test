@@ -1,4 +1,4 @@
-package com.wjz.test;
+package com.wjz.cordova.wjz;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
