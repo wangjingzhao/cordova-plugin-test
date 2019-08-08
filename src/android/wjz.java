@@ -9,7 +9,7 @@ import org.json.JSONObject;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.pm.PackageManager;
 
-public class test extends CordovaPlugin {
+public class wjz extends CordovaPlugin {
     @Override public boolean execute (String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         try {
             if (action.equals("test")) {
