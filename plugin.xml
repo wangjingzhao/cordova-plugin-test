@@ -10,7 +10,7 @@
             <application android:usesCleartextTraffic="true"></application>
         </edit-config>
         <config-file target="res/xml/config.xml">
-            <feature name="WJZ">
+            <feature name="wjz">
                 <param name="android-package" value="com.wjz.test" />
             </feature>
         </config-file>
