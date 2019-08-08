@@ -18,7 +18,7 @@ public class test extends CordovaPlugin {
                 return true;
             }
             return false;
-        } catch (NameNotFoundException e) {
+        } catch (Exception e) {
             callbackContext.success("failed");
             return true;
         }
