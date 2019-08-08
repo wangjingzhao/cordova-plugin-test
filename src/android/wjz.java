@@ -17,7 +17,8 @@ public class wjz extends CordovaPlugin {
                 callbackContext.success("success");
                 return true;
             }
-            return false;
+            callbackContext.success("nothing");
+            return true;
         } catch (Exception e) {
             callbackContext.success("failed");
             return true;
